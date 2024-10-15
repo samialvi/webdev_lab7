@@ -53,7 +53,7 @@ header {
 }
 
 .image-container {
-    width: 30px;
+    width: 100px;
     margin: 0 auto;
     overflow: hidden;
 }
