@@ -58,16 +58,14 @@ header {
     overflow: hidden;
 }
 
-#zoomable-planet {
+.zoomable-planet: {
     width: 50%;
-    transition: transform 0.3s ease; /* Smooth zoom transition */
+    transition: transform 0.3s ease;
+}
+.zoomable-planet:hover {
+  transform: scale(1.5);
 }
 
-#zoomable-planet:hover {
-    transform: scale(2); /* Scale the image to 1.5 times its size */
-}
-
-/* Footer Styling */
 footer {
     text-align: center;
     margin-top: 20px;
