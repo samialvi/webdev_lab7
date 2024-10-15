@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #4b79a1;
+    color: navy blue;
+    padding: 20px 0;
+}
+
+.main-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.sub-heading {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Table Styling */
+.planetary-table-section {
+    padding: 20px;
+}
+
+#planetary-facts-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#planetary-facts-table th, #planetary-facts-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#planetary-facts-table th {
+    background-color: #4b79a1;
+    color: navy blue;
+    font-weight: bold;
+}
+
+#planetary-facts-table td {
+    background-color: #e9eef5;
+}
+
+.image-container {
+    width: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#zoomable-planet {
+    width: 100%;
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+}
+
+#zoomable-planet:hover {
+    transform: scale(1.5); /* Scale the image to 1.5 times its size */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: italic;
+}
