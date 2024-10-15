@@ -53,18 +53,18 @@ header {
 }
 
 .image-container {
-    width: 300px;
+    width: 30px;
     margin: 0 auto;
     overflow: hidden;
 }
 
 #zoomable-planet {
-    width: 100%;
+    width: 50%;
     transition: transform 0.3s ease; /* Smooth zoom transition */
 }
 
 #zoomable-planet:hover {
-    transform: scale(1.5); /* Scale the image to 1.5 times its size */
+    transform: scale(2); /* Scale the image to 1.5 times its size */
 }
 
 /* Footer Styling */
